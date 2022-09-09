@@ -1,0 +1,193 @@
+/* esercizio 1 */
+.ex-1-square{
+    transition: 2s;
+}
+.ex-1-square:hover {
+    background: red;
+}
+
+/* esercizio 2 */
+.ex-2-square{
+    transition: 2s;
+}
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* esercizio 3 */
+.ex-3-square{
+    transition: 2s;
+}
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+/* esercizio 4 */
+.ex-4-square{
+    transition: 2s;
+}
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/* esercizio 5 */
+.ex-5-square{
+    transition: 2s;
+}
+.ex-5-square:hover {
+    transform: scale(2);
+}
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+/* esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+/* esercizio 7 */
+.ex-7-img{
+    transition: 2s;
+}
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    opacity: 50%;
+}
+
+/* esercizio 8 */
+.ex-8-img{
+    transition: 2s;
+}
+.ex-8-img:hover {
+    opacity: 50%;
+    filter: drop-shadow(8px 8px 10px gray);
+    border-radius: 20px;
+}
+
+/* esercizio 9 */
+.ex-9-img{
+    transition: 2s;
+}
+.ex-9-img:hover {
+    opacity: 50%;
+    filter: drop-shadow(8px 8px 10px gray);
+    border-radius: 20px;
+    transform: scale(.5) ;
+}
+
+/* esercizio 10 */
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* esercizio 11 */
+.ex-11-icon:hover{
+    animation: spin3 2s linear
+}
+@keyframes spin3 {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+/* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: moveTopWhite 2s linear;
+}
+@keyframes moveTopWhite {
+    0% {
+        left: 20%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 20%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: moveBottomWhite 2s linear;
+}
+@keyframes moveBottomWhite {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+/* esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+    animation: moveTopWhiteGirocCompleto 2s linear;
+}
+@keyframes moveTopWhiteGirocCompleto {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: moveBottomWhiteGirocCompleto 2s linear;
+}
+@keyframes moveBottomWhiteGirocCompleto {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    30% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    45% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
