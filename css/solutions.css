@@ -134,9 +134,9 @@
 
 /* esercizio 13 */
 .ex-13-button:hover .ex-13-top-white {
-    animation: moveTopWhiteGirocCompleto 2s linear;
+    animation: moveTopWhiteGiroCompleto 2s linear;
 }
-@keyframes moveTopWhiteGirocCompleto {
+@keyframes moveTopWhiteGiroCompleto {
     0% {
         left: 10%;
         top: -10px;
@@ -163,9 +163,9 @@
     }
 }
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: moveBottomWhiteGirocCompleto 2s linear;
+    animation: moveBottomWhiteGiroCompleto 2s linear;
 }
-@keyframes moveBottomWhiteGirocCompleto {
+@keyframes moveBottomWhiteGiroCompleto {
     0% {
         bottom: -10px;
         right: 20%;
